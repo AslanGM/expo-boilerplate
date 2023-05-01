@@ -1,8 +1,8 @@
 import { View, Text } from 'react-native'
-import React from 'react'
 import styles from './home.styles'
+import { ReactElement } from 'react'
 
-export default function Home() {
+export default function Home(): ReactElement {
     return (
         <View style={styles.container}>
             <Text>Home</Text>

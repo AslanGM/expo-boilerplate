@@ -1,8 +1,8 @@
 import { View, Text } from 'react-native'
-import React from 'react'
 import styles from './game.styles'
+import { ReactElement } from 'react'
 
-export default function Game() {
+export default function Game(): ReactElement {
     return (
         <View style={styles.container}>
             <Text>Game</Text>
