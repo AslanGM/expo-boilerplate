@@ -1,9 +1,10 @@
+import React, { ReactElement } from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 import { Home, Game } from '@screens'
 import { useFonts, Inter_400Regular, Inter_700Bold } from '@expo-google-fonts/inter'
 import AppLoading from 'expo-app-loading'
 
-export default function App() {
+export default function App(): ReactElement {
     const [fontsLoaded] = useFonts({
         Inter_400Regular,
         Inter_700Bold
